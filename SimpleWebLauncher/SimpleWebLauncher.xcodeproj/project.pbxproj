@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089748821DB7069F009F5469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 089748811DB7069F009F5469 /* AppDelegate.m */; };
+		089748851DB7069F009F5469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089748841DB7069F009F5469 /* main.m */; };
+		089748871DB7069F009F5469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089748861DB7069F009F5469 /* Assets.xcassets */; };
+		0897488A1DB7069F009F5469 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089748881DB7069F009F5469 /* MainMenu.xib */; };
+		089748921DB706DC009F5469 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 089748911DB706DC009F5469 /* config.plist */; };
+		089748941DB708D5009F5469 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089748931DB708D5009F5469 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0897487D1DB7069F009F5469 /* SimpleWebLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWebLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089748801DB7069F009F5469 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		089748811DB7069F009F5469 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		089748841DB7069F009F5469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		089748861DB7069F009F5469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		089748891DB7069F009F5469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0897488B1DB7069F009F5469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089748911DB706DC009F5469 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		089748931DB708D5009F5469 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0897487A1DB7069F009F5469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089748941DB708D5009F5469 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089748741DB7069F009F5469 = {
+			isa = PBXGroup;
+			children = (
+				0897487F1DB7069F009F5469 /* SimpleWebLauncher */,
+				0897487E1DB7069F009F5469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0897487E1DB7069F009F5469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0897487D1DB7069F009F5469 /* SimpleWebLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0897487F1DB7069F009F5469 /* SimpleWebLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				089748801DB7069F009F5469 /* AppDelegate.h */,
+				089748811DB7069F009F5469 /* AppDelegate.m */,
+				089748861DB7069F009F5469 /* Assets.xcassets */,
+				089748881DB7069F009F5469 /* MainMenu.xib */,
+				0897488B1DB7069F009F5469 /* Info.plist */,
+				089748831DB7069F009F5469 /* Supporting Files */,
+				089748911DB706DC009F5469 /* config.plist */,
+			);
+			path = SimpleWebLauncher;
+			sourceTree = "<group>";
+		};
+		089748831DB7069F009F5469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089748931DB708D5009F5469 /* WebKit.framework */,
+				089748841DB7069F009F5469 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0897487C1DB7069F009F5469 /* SimpleWebLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0897488E1DB7069F009F5469 /* Build configuration list for PBXNativeTarget "SimpleWebLauncher" */;
+			buildPhases = (
+				089748791DB7069F009F5469 /* Sources */,
+				0897487A1DB7069F009F5469 /* Frameworks */,
+				0897487B1DB7069F009F5469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWebLauncher;
+			productName = SimpleWebLauncher;
+			productReference = 0897487D1DB7069F009F5469 /* SimpleWebLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089748751DB7069F009F5469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Girlfriends Labs";
+				TargetAttributes = {
+					0897487C1DB7069F009F5469 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 089748781DB7069F009F5469 /* Build configuration list for PBXProject "SimpleWebLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089748741DB7069F009F5469;
+			productRefGroup = 0897487E1DB7069F009F5469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0897487C1DB7069F009F5469 /* SimpleWebLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0897487B1DB7069F009F5469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089748871DB7069F009F5469 /* Assets.xcassets in Resources */,
+				0897488A1DB7069F009F5469 /* MainMenu.xib in Resources */,
+				089748921DB706DC009F5469 /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089748791DB7069F009F5469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089748851DB7069F009F5469 /* main.m in Sources */,
+				089748821DB7069F009F5469 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089748881DB7069F009F5469 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089748891DB7069F009F5469 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0897488C1DB7069F009F5469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0897488D1DB7069F009F5469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0897488F1DB7069F009F5469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleWebLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.girlfriendslabs.SimpleWebLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		089748901DB7069F009F5469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleWebLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.girlfriendslabs.SimpleWebLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089748781DB7069F009F5469 /* Build configuration list for PBXProject "SimpleWebLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0897488C1DB7069F009F5469 /* Debug */,
+				0897488D1DB7069F009F5469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0897488E1DB7069F009F5469 /* Build configuration list for PBXNativeTarget "SimpleWebLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0897488F1DB7069F009F5469 /* Debug */,
+				089748901DB7069F009F5469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089748751DB7069F009F5469 /* Project object */;
+}
